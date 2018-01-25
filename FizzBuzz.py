@@ -7,6 +7,8 @@ for Zahl in liste:
         print("FizzBuzz")
     elif Zahl%3==0:
         print("Fizz")
+    elif Zahl%20==0:
+        print("lol")
     elif Zahl%5==0:
         print("Buzz")
     else:
